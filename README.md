@@ -200,4 +200,4 @@ Metrics per response:
 
 ## License
 
-The code is licensed under Apache 2.0. The artifacts are intended for research and educational use in accordance with Ai2's [Responsible Use Guidelines](https://allenai.org/responsible-use).
+The code is licensed under Apache 2.0. 
