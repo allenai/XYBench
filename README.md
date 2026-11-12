@@ -1,7 +1,7 @@
 # XYBench
 **XYBench:Can LLMs Respond Pragmatically to Queries with Misconceptions?**
 
-**🏆 Best Resource Paper Award** at EMNLP 2026
+**🏆 Best Resource Award** at EMNLP 2026
 
 [[Paper]](https://arxiv.org/abs/2609.06842) · [[Dataset]](https://huggingface.co/datasets/allenai/XYBench-dataset)
 
