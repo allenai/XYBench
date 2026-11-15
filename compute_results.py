@@ -131,7 +131,7 @@ def human_variants(h: dict) -> list[str]:
     v = ["human_all"]
     if h.get("is_accepted"):
         v.append("human_accepted")
-    if h.get("is_highest_score") or h.get("is_high_score"):
+    if h.get("is_highest_score"):
         v.append("human_highest")
     return v
 
