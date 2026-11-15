@@ -40,7 +40,7 @@ One record per human reference answer (`stackoverflow`, `stackexchange`, `manual
 | `id` | query id |
 | `answer_id` | answer id on the source site, or `human` for `manually_curated` |
 | `answer_text` | the answer (HTML for Stack Overflow / Stack Exchange) |
-| `score`, `is_accepted`, `is_high_score`, `is_highest_score` | answer metadata (`is_highest_score` is null for `stackexchange`) |
+| `score`, `is_accepted`, `is_high_score`, `is_highest_score` | answer metadata |
 | `judge` | judge model |
 | `solution_presence`, `misconception_identification`, `emphasis` | judge outputs, in the same format as model judgments |
 | `metrics` | `s_solution_present`, `i_solution_present`, `emphasis` (`s_solution` / `balanced` / `i_solution` / `neither`), `misconception_identified`, `fully_pragmatic`, `fully_cooperative` |
