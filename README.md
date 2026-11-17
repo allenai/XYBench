@@ -16,7 +16,7 @@ an already-chosen approach, rather than the actual goal. For example, a user mig
 This is known as the **XY problem**. Answering the stated literal request alone can reinforce the misconception rather than address the user's intended goal.
 
 
-XYBench is a benchmark of 8,115 queries with misconceptions, drawn from technical and everyday domains. Each query contains the user's **stated request** (S-request, what they literally ask for), their **intended request** (I-request, the underlying goal), and three rubrics for what a cooperative response should contain:
+XYBench is a benchmark of 8,111 queries with misconceptions, drawn from technical and everyday domains. Each query contains the user's **stated request** (S-request, what they literally ask for), their **intended request** (I-request, the underlying goal), and three rubrics for what a cooperative response should contain:
 
 
 1. **S-solution**: solutions to directly address the stated request (or explain why it is infeasible),
@@ -46,6 +46,7 @@ The data is hosted on the Hugging Face Hub as [`allenai/XYBench-dataset`](https:
 
 Field descriptions are in [docs/DATA.md](docs/DATA.md). To use a local copy instead, pass `--data-dir DIR` (or set `XYBENCH_DATA_DIR`) where `DIR/{subset}/queries.jsonl` exists; `XYBENCH_DATASET` points the scripts at a different Hub repository.
 
+**Note:** Additional filtering and sanity checks were applied during the XYBench dataset release, so results may differ _slightly_ from those reported in the paper. However, the overall findings and conclusions remain unchanged, and the arXiv version is being updated to reflect these changes (stay tuned!) 
 
 ## Setup
 
